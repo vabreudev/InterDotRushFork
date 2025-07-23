@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("monodbg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("25.7.204")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b2c272c2d01978401f9bcda2d4b02482fd8f1b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eaa2d4416d4b84cedfd05696aba326aa3942820")]
 [assembly: System.Reflection.AssemblyProductAttribute("monodbg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("monodbg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("25.7.204")]
