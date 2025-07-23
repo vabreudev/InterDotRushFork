@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common.Build.props" />
+
+	<PropertyGroup>
+		<TargetFramework>$(ServerTargetFramework)</TargetFramework>
+		<OutputType>Exe</OutputType>
+		<AssemblyName>DotRush</AssemblyName>
+		<SelfContained>true</SelfContained>
+		<NoWarn>$(NoWarn);MSB3277</NoWarn>
+
+		<OutputPath>$(AssetsPath)LanguageServer</OutputPath>
+        <PublishDir>$(OutputPath)</PublishDir>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EmmyLua.LanguageServer.Framework" />
+
+		<ProjectReference Include="..\DotRush.Roslyn.Workspaces\DotRush.Roslyn.Workspaces.csproj" />
+		<ProjectReference Include="..\DotRush.Roslyn.CodeAnalysis\DotRush.Roslyn.CodeAnalysis.csproj" />
+		<ProjectReference Include="..\DotRush.Roslyn.Navigation\DotRush.Roslyn.Navigation.csproj" />
+		<ProjectReference Include="..\DotRush.Roslyn.ExternalAccess\DotRush.Roslyn.ExternalAccess.csproj" />
+	</ItemGroup>
+</Project>

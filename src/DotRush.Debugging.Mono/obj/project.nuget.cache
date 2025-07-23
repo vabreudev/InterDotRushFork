@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "E69w3Nd1JLA=",
+  "success": true,
+  "projectFilePath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Debugging.Mono/DotRush.Debugging.Mono.csproj",
+  "expectedPackageFiles": [
+    "/Users/bi006805/.nuget/packages/messagepack/2.5.108/messagepack.2.5.108.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/messagepack.annotations/2.5.108/messagepack.annotations.2.5.108.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.net.stringtools/17.4.0/microsoft.net.stringtools.17.4.0.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.visualstudio.shared.vscodedebugprotocol/17.2.60629.1/microsoft.visualstudio.shared.vscodedebugprotocol.17.2.60629.1.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.visualstudio.threading/17.10.48/microsoft.visualstudio.threading.17.10.48.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.10.48/microsoft.visualstudio.threading.analyzers.17.10.48.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.visualstudio.validation/17.8.8/microsoft.visualstudio.validation.17.8.8.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/mono.cecil/0.11.4/mono.cecil.0.11.4.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/mono.options/6.12.0.148/mono.options.6.12.0.148.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/nerdbank.streams/2.11.74/nerdbank.streams.2.11.74.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/nlog/5.4.0/nlog.5.4.0.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/streamjsonrpc/2.19.27/streamjsonrpc.2.19.27.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.15/microsoft.netcore.app.host.osx-arm64.8.0.15.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1507",
+      "level": "Warning",
+      "message": "There are 3 package sources defined in your configuration. When using central package management, please map your package sources with package source mapping (https://aka.ms/nuget-package-source-mapping) or specify a single package source. The following sources are defined: nuget.org, nexus, Nexus-Shared",
+      "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Debugging.Mono/DotRush.Debugging.Mono.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Debugging.Mono/DotRush.Debugging.Mono.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
