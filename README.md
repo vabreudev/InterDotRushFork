@@ -1,4 +1,4 @@
-<object type="image/svg+xml" data="assets/interLogo.svg" style="float: right; width: 60%; padding: 2% 0% 0% 2%;"></object>
+<img align="right" width="60%" src="assets/interLogo.png" style="padding: 2% 0% 0% 2%"/>
 
 # InterDotRush - A Security-Focused Fork of DotRush
 
