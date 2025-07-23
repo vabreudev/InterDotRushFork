@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterDotRush.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("25.7.204")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eaa2d4416d4b84cedfd05696aba326aa3942820")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4c767934457777376f245e64795d523e65d1c6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterDotRush.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterDotRush.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("25.7.204")]
