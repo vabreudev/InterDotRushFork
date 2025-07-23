@@ -1,0 +1,16 @@
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/bin/release/InterDotRush.Roslyn.Navigation.deps.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/bin/release/InterDotRush.Roslyn.Navigation.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/bin/release/InterDotRush.Roslyn.Navigation.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/bin/release/InterDotRush.Common.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/bin/release/InterDotRush.Common.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDotRush.Roslyn.Navigation.csproj.AssemblyReference.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDotRush.Roslyn.Navigation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDotRush.Roslyn.Navigation.AssemblyInfoInputs.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDotRush.Roslyn.Navigation.AssemblyInfo.cs
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDotRush.Roslyn.Navigation.csproj.CoreCompileInputs.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDotRush.Roslyn.Navigation.sourcelink.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDot.C8231D27.Up2Date
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDotRush.Roslyn.Navigation.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/refint/InterDotRush.Roslyn.Navigation.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/InterDotRush.Roslyn.Navigation.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Roslyn.Navigation/obj/release/ref/InterDotRush.Roslyn.Navigation.dll

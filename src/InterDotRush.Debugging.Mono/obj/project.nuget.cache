@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "M54eTEPnY/M=",
+  "success": true,
+  "projectFilePath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/InterDotRush.Debugging.Mono.csproj",
+  "expectedPackageFiles": [
+    "/Users/bi006805/.nuget/packages/messagepack/2.5.108/messagepack.2.5.108.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/messagepack.annotations/2.5.108/messagepack.annotations.2.5.108.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.codeanalysis.common/4.5.0-2.final/microsoft.codeanalysis.common.4.5.0-2.final.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.codeanalysis.csharp/4.5.0-2.final/microsoft.codeanalysis.csharp.4.5.0-2.final.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.net.stringtools/17.4.0/microsoft.net.stringtools.17.4.0.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.visualstudio.shared.vscodedebugprotocol/17.2.60629.1/microsoft.visualstudio.shared.vscodedebugprotocol.17.2.60629.1.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.visualstudio.threading/17.10.48/microsoft.visualstudio.threading.17.10.48.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.10.48/microsoft.visualstudio.threading.analyzers.17.10.48.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.visualstudio.validation/17.8.8/microsoft.visualstudio.validation.17.8.8.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/mono.cecil/0.11.4/mono.cecil.0.11.4.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/mono.options/6.12.0.148/mono.options.6.12.0.148.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/mono.unix/7.0.0-final.1.21369.2/mono.unix.7.0.0-final.1.21369.2.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/nerdbank.streams/2.11.74/nerdbank.streams.2.11.74.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/nlog/5.4.0/nlog.5.4.0.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/streamjsonrpc/2.19.27/streamjsonrpc.2.19.27.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/Users/bi006805/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.15/microsoft.netcore.app.host.osx-arm64.8.0.15.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1507",
+      "level": "Warning",
+      "message": "Há 3 origens de pacotes definidas na sua configuração. Ao usar o gerenciamento central de pacotes, mapeie suas origens de pacotes com o mapeamento de origem de pacotes (https://aka.ms/nuget-package-source-mapping) ou especifique uma única origem do pacote. As origens a seguir estão definidas: nuget.org, nexus, Nexus-Shared",
+      "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/InterDotRush.Debugging.Mono.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/InterDotRush.Debugging.Mono.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Mono.Debugging depende de Microsoft.CodeAnalysis.CSharp (>= 4.5.0-1.22517.2) mas Microsoft.CodeAnalysis.CSharp 4.5.0-1.22517.2 não foi encontrado. Microsoft.CodeAnalysis.CSharp 4.5.0-2.final foi resolvido.",
+      "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/InterDotRush.Debugging.Mono.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/InterDotRush.Debugging.Mono.csproj",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/osx-arm64"
+      ]
+    }
+  ]
+}

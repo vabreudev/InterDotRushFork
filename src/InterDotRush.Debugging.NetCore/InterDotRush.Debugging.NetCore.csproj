@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Common.Build.props" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>InterDotRushde</AssemblyName>
+    <OutputPath>$(AssetsPath)TestExplorer</OutputPath>
+    <PublishDir>$(OutputPath)</PublishDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InterDotRush.Common\InterDotRush.Common.csproj" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" />
+  </ItemGroup>
+</Project>

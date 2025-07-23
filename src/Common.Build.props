@@ -8,7 +8,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
         <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
         <SelfContained>false</SelfContained>
         <PublishTrimmed>false</PublishTrimmed>
@@ -18,7 +18,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <InternalsVisibleTo Include="DotRush.Roslyn.Workspaces.Tests" />
-        <InternalsVisibleTo Include="DotRush.Roslyn.CodeAnalysis.Tests" />
+        <InternalsVisibleTo Include="InterDotRush.Roslyn.Workspaces.Tests" />
+        <InternalsVisibleTo Include="InterDotRush.Roslyn.CodeAnalysis.Tests" />
     </ItemGroup>
 </Project>

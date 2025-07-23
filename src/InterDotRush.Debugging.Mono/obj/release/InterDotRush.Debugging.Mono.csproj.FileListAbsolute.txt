@@ -1,0 +1,17 @@
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/DebuggerMono/monodbg
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/DebuggerMono/monodbg.deps.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/DebuggerMono/monodbg.runtimeconfig.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/DebuggerMono/monodbg.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/DebuggerMono/monodbg.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/InterDotRush.Debugging.Mono.csproj.AssemblyReference.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/InterDotRush.Debugging.Mono.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/InterDotRush.Debugging.Mono.AssemblyInfoInputs.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/InterDotRush.Debugging.Mono.AssemblyInfo.cs
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/InterDotRush.Debugging.Mono.csproj.CoreCompileInputs.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/InterDotRush.Debugging.Mono.sourcelink.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/InterDot.8F81809A.Up2Date
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/monodbg.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/refint/monodbg.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/monodbg.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/InterDotRush.Debugging.Mono.genruntimeconfig.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.Mono/obj/release/ref/monodbg.dll

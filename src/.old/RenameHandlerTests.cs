@@ -1,13 +1,14 @@
-using DotRush.Roslyn.Server.Handlers.TextDocument;
-using DotRush.Roslyn.Server.Services;
-using DotRush.Roslyn.Tests.Extensions;
+using InterDotRush.Roslyn.Server.Handlers.TextDocument;
+using InterDotRush.Roslyn.Server.Services;
+using InterDotRush.Roslyn.Tests.Extensions;
 using OmniSharp.Extensions.LanguageServer.Protocol;
 using OmniSharp.Extensions.LanguageServer.Protocol.Models;
 using Xunit;
 
-namespace DotRush.Roslyn.Tests.HandlersTests.TextDocument;
+namespace InterDotRush.Roslyn.Tests.HandlersTests.TextDocument;
 
-public class RenameHandlerTests : TestFixtureBase, IDisposable {
+public class RenameHandlerTests : TestFixtureBase, IDisposable
+{
     private static WorkspaceService WorkspaceService => ServiceProvider.WorkspaceService;
     private static RenameHandler RenameHandler = new RenameHandler(WorkspaceService);
 
@@ -17,7 +18,8 @@ public class RenameHandlerTests : TestFixtureBase, IDisposable {
     private DocumentUri DocumentUri2 => DocumentUri.FromFileSystemPath(documentPath2);
 
     [Fact]
-    public async Task RenameSymbolTest() {
+    public async Task RenameSymbolTest()
+    {
         TestProjectExtensions.CreateDocument(documentPath, @"
 namespace Tests;
 class RenameHandlerTest {
@@ -29,8 +31,10 @@ class RenameHandlerTest {
 }
         ");
         WorkspaceService.CreateDocument(documentPath);
-        var result = await RenameHandler.Handle(new RenameParams() {
-            Position = new Position() {
+        var result = await RenameHandler.Handle(new RenameParams()
+        {
+            Position = new Position()
+            {
                 Line = 4,
                 Character = 10,
             },
@@ -44,7 +48,8 @@ class RenameHandlerTest {
             Assert.Equal("New", change.NewText);
     }
     [Fact]
-    public async Task RenameSymbolInsideDirectivesTest() {
+    public async Task RenameSymbolInsideDirectivesTest()
+    {
         TestProjectExtensions.CreateDocument(documentPath, @"
 namespace Tests;
 class RenameHandlerTest {
@@ -61,8 +66,10 @@ class RenameHandlerTest {
 }
         ");
         WorkspaceService.CreateDocument(documentPath);
-        var result = await RenameHandler.Handle(new RenameParams() {
-            Position = new Position() {
+        var result = await RenameHandler.Handle(new RenameParams()
+        {
+            Position = new Position()
+            {
                 Line = 4,
                 Character = 10,
             },
@@ -76,7 +83,8 @@ class RenameHandlerTest {
             Assert.Equal("New", change.NewText);
     }
     [Fact]
-    public async Task RenameSymbolInDifferentFilesTest() {
+    public async Task RenameSymbolInDifferentFilesTest()
+    {
         TestProjectExtensions.CreateDocument(documentPath, @"
 namespace Tests;
 class RenameHandlerTest {
@@ -94,8 +102,10 @@ class SomeClass {
         ");
         WorkspaceService.CreateDocument(documentPath);
         WorkspaceService.CreateDocument(documentPath2);
-        var result = await RenameHandler.Handle(new RenameParams() {
-            Position = new Position() {
+        var result = await RenameHandler.Handle(new RenameParams()
+        {
+            Position = new Position()
+            {
                 Line = 4,
                 Character = 20,
             },
@@ -112,7 +122,8 @@ class SomeClass {
         Assert.Equal("New", result.Changes[DocumentUri2].Single().NewText);
     }
 
-    public void Dispose() {
+    public void Dispose()
+    {
         WorkspaceService.DeleteDocument(documentPath);
         WorkspaceService.DeleteDocument(documentPath2);
     }

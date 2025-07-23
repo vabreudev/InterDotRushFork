@@ -23,13 +23,13 @@ Task("clean")
 	.Does(() =>
 	{
 		EnsureDirectoryExists(ArtifactsDirectory);
-		CleanDirectories(_Path.Combine(RootDirectory, "src", "DotRush.*", "**", "bin"));
-		CleanDirectories(_Path.Combine(RootDirectory, "src", "DotRush.*", "**", "obj"));
+		CleanDirectories(_Path.Combine(RootDirectory, "src", "InterDotRush.*", "**", "bin"));
+		CleanDirectories(_Path.Combine(RootDirectory, "src", "InterDotRush.*", "**", "obj"));
 		CleanDirectories(VSCodeExtensionDirectory);
 	});
 
 Task("server")
-	.Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "DotRush.Roslyn.Server", "DotRush.Roslyn.Server.csproj"), new DotNetPublishSettings
+	.Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "InterDotRush.Roslyn.Server", "InterDotRush.Roslyn.Server.csproj"), new DotNetPublishSettings
 	{
 		MSBuildSettings = new DotNetMSBuildSettings { AssemblyVersion = version },
 		Configuration = configuration,
@@ -38,19 +38,19 @@ Task("server")
 	.Does(() =>
 	{
 		var input = _Path.Combine(VSCodeExtensionDirectory, "bin", "LanguageServer");
-		var output = _Path.Combine(ArtifactsDirectory, $"DotRush.Bundle.Server_{runtime}.zip");
+		var output = _Path.Combine(ArtifactsDirectory, $"InterDotRush.Bundle.Server_{runtime}.zip");
 		EnsureFileDeleted(output);
 		ZipFile.CreateFromDirectory(input, output, CompressionLevel.Optimal, false);
 	});
 
 Task("debugging")
-	.Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "DotRush.Debugging.NetCore", "DotRush.Debugging.NetCore.csproj"), new DotNetPublishSettings
+	.Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "InterDotRush.Debugging.NetCore", "InterDotRush.Debugging.NetCore.csproj"), new DotNetPublishSettings
 	{
 		MSBuildSettings = new DotNetMSBuildSettings { AssemblyVersion = version },
 		Configuration = configuration,
 		Runtime = runtime,
 	}))
-	.Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "DotRush.Debugging.Mono", "DotRush.Debugging.Mono.csproj"), new DotNetPublishSettings
+	.Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "InterDotRush.Debugging.Mono", "InterDotRush.Debugging.Mono.csproj"), new DotNetPublishSettings
 	{
 		MSBuildSettings = new DotNetMSBuildSettings { AssemblyVersion = version },
 		Configuration = configuration,
@@ -59,16 +59,16 @@ Task("debugging")
 	.Does(() =>
 	{
 		if (!bundle) return;
-		ExecuteCommand("dotnet", $"{_Path.Combine(VSCodeExtensionDirectory, "bin", "TestExplorer", "dotrushde.dll")} --install-ncdbg");
+		ExecuteCommand("dotnet", $"{_Path.Combine(VSCodeExtensionDirectory, "bin", "TestExplorer", "InterDotRushde.dll")} --install-ncdbg");
 	});
 
 Task("diagnostics")
-	.Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "DotRush.Debugging.Diagnostics", "src", "Tools", "dotnet-trace", "dotnet-trace.csproj"), new DotNetPublishSettings
+	.Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "InterDotRush.Debugging.Diagnostics", "src", "Tools", "dotnet-trace", "dotnet-trace.csproj"), new DotNetPublishSettings
 	{
 		OutputDirectory = _Path.Combine(VSCodeExtensionDirectory, "bin", "Diagnostics"),
 		Configuration = configuration,
 		Runtime = runtime,
-	})).Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "DotRush.Debugging.Diagnostics", "src", "Tools", "dotnet-gcdump", "dotnet-gcdump.csproj"), new DotNetPublishSettings
+	})).Does(() => DotNetPublish(_Path.Combine(RootDirectory, "src", "InterDotRush.Debugging.Diagnostics", "src", "Tools", "dotnet-gcdump", "dotnet-gcdump.csproj"), new DotNetPublishSettings
 	{
 		OutputDirectory = _Path.Combine(VSCodeExtensionDirectory, "bin", "Diagnostics"),
 		Configuration = configuration,
@@ -77,7 +77,7 @@ Task("diagnostics")
 
 Task("test")
 	.IsDependentOn("clean")
-	.Does(() => DotNetTest(_Path.Combine(RootDirectory, "src", "DotRush.Roslyn.Workspaces.Tests", "DotRush.Roslyn.Workspaces.Tests.csproj"),
+	.Does(() => DotNetTest(_Path.Combine(RootDirectory, "src", "InterDotRush.Roslyn.Workspaces.Tests", "InterDotRush.Roslyn.Workspaces.Tests.csproj"),
 		new DotNetTestSettings
 		{
 			Configuration = configuration,
@@ -86,7 +86,7 @@ Task("test")
 			Loggers = new[] { "trx" }
 		}
 	))
-	.Does(() => DotNetTest(_Path.Combine(RootDirectory, "src", "DotRush.Roslyn.CodeAnalysis.Tests", "DotRush.Roslyn.CodeAnalysis.Tests.csproj"),
+	.Does(() => DotNetTest(_Path.Combine(RootDirectory, "src", "InterDotRush.Roslyn.CodeAnalysis.Tests", "InterDotRush.Roslyn.CodeAnalysis.Tests.csproj"),
 		new DotNetTestSettings
 		{
 			Configuration = configuration,
@@ -95,7 +95,7 @@ Task("test")
 			Loggers = new[] { "trx" }
 		}
 	))
-	.Does(() => DotNetTest(_Path.Combine(RootDirectory, "src", "DotRush.Debugging.NetCore.Tests", "DotRush.Debugging.NetCore.Tests.csproj"),
+	.Does(() => DotNetTest(_Path.Combine(RootDirectory, "src", "InterDotRush.Debugging.NetCore.Tests", "InterDotRush.Debugging.NetCore.Tests.csproj"),
 		new DotNetTestSettings
 		{
 			Configuration = configuration,
@@ -114,7 +114,7 @@ Task("vsix")
 	{
 		var vsruntime = runtime.Replace("win-", "win32-").Replace("osx-", "darwin-");
 		var suffix = bundle ? ".Bundle" : string.Empty;
-		var output = _Path.Combine(ArtifactsDirectory, $"DotRush{suffix}.v{version}_{vsruntime}.vsix");
+		var output = _Path.Combine(ArtifactsDirectory, $"InterDotRush{suffix}.v{version}_{vsruntime}.vsix");
 		ExecuteCommand("npm", "install");
 		ExecuteCommand("vsce", $"package --target {vsruntime} --out {output} --no-git-tag-version {version}");
 	});

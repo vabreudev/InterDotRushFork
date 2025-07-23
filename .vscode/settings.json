@@ -1,22 +1,19 @@
 {
-    "dotrush.roslyn.workspaceProperties": [
-    ],
-    "dotrush.roslyn.projectOrSolutionFiles": [
-        "src\\DotRush.sln"
-    ],
-    "files.exclude": {
-        "src/DotRush.*/bin": true,
-        "src/DotRush.*/obj": true,
-        "**/node_modules": true,
-        ".config": true,
-        ".github": true,
-        ".editorconfig": true,
-        ".gitignore": true,
-        ".gitmodules": true
-    },
-    "explorer.fileNesting.expand": false,
-    "explorer.fileNesting.enabled": true,
-    "explorer.fileNesting.patterns": {
-        "package.json": "package*.json",
-    },
+  "InterDotRush.roslyn.workspaceProperties": [],
+  "InterDotRush.roslyn.projectOrSolutionFiles": ["src\\InterDotRush.sln"],
+  "files.exclude": {
+    "src/InterDotRush.*/bin": true,
+    "src/InterDotRush.*/obj": true,
+    "**/node_modules": true,
+    ".config": true,
+    ".github": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    ".gitmodules": true
+  },
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package*.json"
+  }
 }

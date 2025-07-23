@@ -1,13 +1,13 @@
-id = "dotrush"
-name = "DotRush"
+id = "InterDotRush"
+name = "InterDotRush"
 version = "1.0.0"
 schema_version = 1
 authors = ["Nikita Romanov"]
-description = "DotRush for Zed"
-repository = "https://github.com/JaneySprings/DotRush"
+description = "InterDotRush for Zed"
+repository = "https://github.com/JaneySprings/InterDotRush"
 
-[language_servers.dotrush]
-name = "DotRush"
+[language_servers.InterDotRush]
+name = "InterDotRush"
 languages = ["CSharp"]
 
 [grammars.c_sharp]

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common.Build.props" />
+
+	<PropertyGroup>
+		<TargetFramework>$(ServerTargetFramework)</TargetFramework>
+		<NoWarn>$(NoWarn);NUnit2045</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference
+			Include="..\InterDotRush.Roslyn.CodeAnalysis\InterDotRush.Roslyn.CodeAnalysis.csproj" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" />
+		<PackageReference Include="NUnit" />
+		<PackageReference Include="NUnit.Analyzers" />
+		<PackageReference Include="NUnit3TestAdapter" />
+	</ItemGroup>
+</Project>

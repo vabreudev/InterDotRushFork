@@ -1,0 +1,17 @@
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde.deps.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde.runtimeconfig.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRush.Debugging.NetCore.csproj.AssemblyReference.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRush.Debugging.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRush.Debugging.NetCore.AssemblyInfoInputs.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRush.Debugging.NetCore.AssemblyInfo.cs
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRush.Debugging.NetCore.csproj.CoreCompileInputs.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRush.Debugging.NetCore.sourcelink.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDot.82C893D7.Up2Date
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRushde.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/refint/InterDotRushde.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRushde.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/InterDotRush.Debugging.NetCore.genruntimeconfig.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Debugging.NetCore/obj/release/ref/InterDotRushde.dll

@@ -1,0 +1,13 @@
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/bin/release/InterDotRush.Common.deps.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/bin/release/InterDotRush.Common.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/bin/release/InterDotRush.Common.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/InterDotRush.Common.csproj.AssemblyReference.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/InterDotRush.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/InterDotRush.Common.AssemblyInfoInputs.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/InterDotRush.Common.AssemblyInfo.cs
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/InterDotRush.Common.csproj.CoreCompileInputs.cache
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/InterDotRush.Common.sourcelink.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/InterDotRush.Common.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/refint/InterDotRush.Common.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/InterDotRush.Common.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/InterDotRush.Common/obj/release/ref/InterDotRush.Common.dll

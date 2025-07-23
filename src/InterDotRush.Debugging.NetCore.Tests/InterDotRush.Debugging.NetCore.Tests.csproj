@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common.Build.props" />
+
+	<ItemGroup>
+		<ProjectReference
+			Include="..\InterDotRush.Debugging.NetCore\InterDotRush.Debugging.NetCore.csproj" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" />
+		<PackageReference Include="NUnit" />
+		<PackageReference Include="NUnit.Analyzers" />
+		<PackageReference Include="NUnit3TestAdapter" />
+	</ItemGroup>
+</Project>

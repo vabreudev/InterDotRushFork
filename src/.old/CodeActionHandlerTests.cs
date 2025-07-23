@@ -1,14 +1,15 @@
-using DotRush.Roslyn.Server.Extensions;
-using DotRush.Roslyn.Server.Handlers.TextDocument;
-using DotRush.Roslyn.Server.Services;
-using DotRush.Roslyn.Tests.Extensions;
+using InterDotRush.Roslyn.Server.Extensions;
+using InterDotRush.Roslyn.Server.Handlers.TextDocument;
+using InterDotRush.Roslyn.Server.Services;
+using InterDotRush.Roslyn.Tests.Extensions;
 using OmniSharp.Extensions.LanguageServer.Protocol;
 using OmniSharp.Extensions.LanguageServer.Protocol.Models;
 using Xunit;
 
-namespace DotRush.Roslyn.Tests.HandlersTests.TextDocument;
+namespace InterDotRush.Roslyn.Tests.HandlersTests.TextDocument;
 
-public class CodeActionHandlerTests : TestFixtureBase, IDisposable {
+public class CodeActionHandlerTests : TestFixtureBase, IDisposable
+{
     private static WorkspaceService WorkspaceService => ServiceProvider.WorkspaceService;
     private static CodeAnalysisService CodeAnalysisService => ServiceProvider.CodeAnalysisService;
     private static ConfigurationService ConfigurationService => ServiceProvider.ConfigurationService;
@@ -19,7 +20,8 @@ public class CodeActionHandlerTests : TestFixtureBase, IDisposable {
     private DocumentUri DocumentUri => DocumentUri.FromFileSystemPath(documentPath);
 
     [Fact]
-    public async Task AutoUsingCodeActionTest() {
+    public async Task AutoUsingCodeActionTest()
+    {
         TestProjectExtensions.CreateDocument(documentPath, @"
 namespace Tests;
 class CodeActionTest {
@@ -35,16 +37,19 @@ class CodeActionTest {
         Assert.NotEmpty(diagnostics);
         var errorDiagnostic = diagnostics.Single(it => it.Severity == Microsoft.CodeAnalysis.DiagnosticSeverity.Error);
 
-        var result = await CodeActionHandler.Handle(new CodeActionParams() {
+        var result = await CodeActionHandler.Handle(new CodeActionParams()
+        {
             TextDocument = new TextDocumentIdentifier() { Uri = DocumentUri },
-            Context = new CodeActionContext() {
+            Context = new CodeActionContext()
+            {
                 Diagnostics = new Container<Diagnostic>(errorDiagnostic.ToServerDiagnostic())
             }
         }, CancellationToken.None).ConfigureAwait(false);
 
         Assert.NotNull(result);
         Assert.Equal(9, result.Count());
-        foreach (var codeAction in result) {
+        foreach (var codeAction in result)
+        {
             Assert.NotNull(codeAction.CodeAction);
             Assert.Equal(CodeActionKind.QuickFix, codeAction.CodeAction!.Kind);
         }
@@ -75,7 +80,8 @@ class CodeActionTest {
     }
 
     [Fact]
-    public async Task ApplyCodeActionInConditionsTest() {
+    public async Task ApplyCodeActionInConditionsTest()
+    {
         TestProjectExtensions.CreateDocument(documentPath, @"
 namespace Tests;
 sealed class CodeActionTest {
@@ -98,10 +104,13 @@ sealed class CodeActionTest {
         var warningDiagnostics = diagnostics.Where(it => it.Severity == Microsoft.CodeAnalysis.DiagnosticSeverity.Warning);
         Assert.Equal(3, warningDiagnostics.Count());
 
-        foreach (var warningDiagnostic in warningDiagnostics) {
-            var result = await CodeActionHandler.Handle(new CodeActionParams() {
+        foreach (var warningDiagnostic in warningDiagnostics)
+        {
+            var result = await CodeActionHandler.Handle(new CodeActionParams()
+            {
                 TextDocument = new TextDocumentIdentifier() { Uri = DocumentUri },
-                Context = new CodeActionContext() {
+                Context = new CodeActionContext()
+                {
                     Diagnostics = new Container<Diagnostic>(warningDiagnostic.ToServerDiagnostic())
                 }
             }, CancellationToken.None).ConfigureAwait(false);
@@ -126,7 +135,8 @@ sealed class CodeActionTest {
         }
     }
 
-    public void Dispose() {
+    public void Dispose()
+    {
         WorkspaceService.DeleteDocument(documentPath);
     }
 }

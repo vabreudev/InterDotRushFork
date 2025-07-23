@@ -1,33 +1,22 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "tsc: watch",
-            "type": "shell",
-            "command": "tsc",
-            "args": [
-                "-w",
-                "-p",
-                "${workspaceFolder}/src/VSCode"
-            ],
-            "isBackground": true,
-            "problemMatcher": [
-                "$tsc-watch"
-            ]
-        },
-        {
-            "label": "vsix",
-            "command": "dotnet",
-            "type": "process",
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
-            "problemMatcher": [],
-            "args": [
-                "cake",
-                "--target=vsix",
-                "--configuration=release"
-            ]
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "tsc: watch",
+      "type": "shell",
+      "command": "tsc",
+      "args": ["-w", "-p", "${workspaceFolder}/src/VSCode"],
+      "isBackground": true,
+      "problemMatcher": ["$tsc-watch"]
+    },
+    {
+      "label": "vsix",
+      "type": "shell",
+      "command": "export PATH=\"$PWD/node_modules/.bin:$PATH\" && dotnet cake --target=vsix --configuration=release",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
 }

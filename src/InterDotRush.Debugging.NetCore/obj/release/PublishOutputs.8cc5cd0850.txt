@@ -1,0 +1,12 @@
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde.deps.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde.runtimeconfig.json
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRushde.pdb
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/Microsoft.CodeAnalysis.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/Microsoft.CodeAnalysis.CSharp.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/NLog.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/System.Collections.Immutable.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/System.Reflection.Metadata.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRush.Common.dll
+/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/extension/bin/TestExplorer/InterDotRush.Common.pdb
