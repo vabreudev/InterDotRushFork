@@ -1,0 +1,194 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0/osx-arm64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/osx-arm64": {
+      "dotnet-gcdump/9.0.637301": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp.CodeStyle": "4.8.0",
+          "Microsoft.CodeAnalysis.NetAnalyzers": "10.0.0-preview.25351.106",
+          "Microsoft.Diagnostics.NETCore.Client": "0.2.637301",
+          "Microsoft.Diagnostics.Tracing.TraceEvent": "3.1.23",
+          "Microsoft.DotNet.CodeAnalysis": "10.0.0-beta.25351.106",
+          "StyleCop.Analyzers": "1.2.0-beta.556",
+          "System.CommandLine": "2.0.0-beta5.25210.1"
+        },
+        "runtime": {
+          "dotnet-gcdump.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp.CodeStyle/4.8.0": {},
+      "Microsoft.CodeAnalysis.NetAnalyzers/10.0.0-preview.25351.106": {},
+      "Microsoft.Diagnostics.Tracing.TraceEvent/3.1.23": {
+        "dependencies": {
+          "Microsoft.Diagnostics.NETCore.Client": "0.2.637301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dia2Lib.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/Microsoft.Diagnostics.FastSerialization.dll": {
+            "assemblyVersion": "3.1.23.0",
+            "fileVersion": "3.1.23.0"
+          },
+          "lib/netstandard2.0/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "assemblyVersion": "3.1.23.0",
+            "fileVersion": "3.1.23.0"
+          },
+          "lib/netstandard2.0/TraceReloggerLib.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.DotNet.CodeAnalysis/10.0.0-beta.25351.106": {},
+      "Microsoft.Extensions.Logging.Abstractions/6.0.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1823.26907"
+          }
+        }
+      },
+      "StyleCop.Analyzers/1.2.0-beta.556": {
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.556"
+        }
+      },
+      "StyleCop.Analyzers.Unstable/1.2.0.556": {},
+      "System.CommandLine/2.0.0-beta5.25210.1": {
+        "runtime": {
+          "lib/net8.0/System.CommandLine.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.25.21001"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/System.CommandLine.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.CommandLine.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.CommandLine.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.CommandLine.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.CommandLine.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.CommandLine.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.CommandLine.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.CommandLine.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.CommandLine.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.CommandLine.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.CommandLine.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.CommandLine.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.CommandLine.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Diagnostics.NETCore.Client/0.2.637301": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.4"
+        },
+        "runtime": {
+          "Microsoft.Diagnostics.NETCore.Client.dll": {
+            "assemblyVersion": "0.2.12.37301",
+            "fileVersion": "0.2.12.37301"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-gcdump/9.0.637301": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis.CSharp.CodeStyle/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2pncXyyEtesl8EzmDfT7lKeOQoiuW+30zy3EozCFb4CMnGGsTe3COoRRCk3tqVk27LfRjCdJv+zK+JTEMmF3lw==",
+      "path": "microsoft.codeanalysis.csharp.codestyle/4.8.0",
+      "hashPath": "microsoft.codeanalysis.csharp.codestyle.4.8.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.NetAnalyzers/10.0.0-preview.25351.106": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ctN5Dv99/odM60qAk98IGGEYFt2H5IiCFotxZkv12qguBawAr5EzxVadq6aOkeJevT33mnHynDOPFhMjuV1ww==",
+      "path": "microsoft.codeanalysis.netanalyzers/10.0.0-preview.25351.106",
+      "hashPath": "microsoft.codeanalysis.netanalyzers.10.0.0-preview.25351.106.nupkg.sha512"
+    },
+    "Microsoft.Diagnostics.Tracing.TraceEvent/3.1.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zhEGgNc3zEFQJ9ApNd3sH0Hx1NMQ25Yqt56Zwh0Raw/bOzAa0i2FQR7BrDHgguIY/b8DxaeDa2T7zCUUyP2UgA==",
+      "path": "microsoft.diagnostics.tracing.traceevent/3.1.23",
+      "hashPath": "microsoft.diagnostics.tracing.traceevent.3.1.23.nupkg.sha512"
+    },
+    "Microsoft.DotNet.CodeAnalysis/10.0.0-beta.25351.106": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9DBRGMEOenBqFUn172K1B+fKfXZ9F4XFCjK/sNGt0dGd8j1vD/YRWY3y8/uZKtrO4iy57JLTaJ5sNmY5ugRlJw==",
+      "path": "microsoft.dotnet.codeanalysis/10.0.0-beta.25351.106",
+      "hashPath": "microsoft.dotnet.codeanalysis.10.0.0-beta.25351.106.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K14wYgwOfKVELrUh5eBqlC8Wvo9vvhS3ZhIvcswV2uS/ubkTRPSQsN557EZiYUSSoZNxizG+alN4wjtdyLdcyw==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.4",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.4.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.2.0-beta.556": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-llRPgmA1fhC0I0QyFLEcjvtM2239QzKr/tcnbsjArLMJxJlu0AA5G7Fft0OI30pHF3MW63Gf4aSSsjc5m82J1Q==",
+      "path": "stylecop.analyzers/1.2.0-beta.556",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.556.nupkg.sha512"
+    },
+    "StyleCop.Analyzers.Unstable/1.2.0.556": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zvn9Mqs/ox/83cpYPignI8hJEM2A93s2HkHs8HYMOAQW0PkampyoErAiIyKxgTLqbbad29HX/shv/6LGSjPJNQ==",
+      "path": "stylecop.analyzers.unstable/1.2.0.556",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.556.nupkg.sha512"
+    },
+    "System.CommandLine/2.0.0-beta5.25210.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-32JUZ+/6D5++a2JFzF7t5eaPtNZgF8H6u08xf9XUhDUtKacfJcPQHn1dza3pBbsNWXG9BpsPHGOpaWah+4xMrw==",
+      "path": "system.commandline/2.0.0-beta5.25210.1",
+      "hashPath": "system.commandline.2.0.0-beta5.25210.1.nupkg.sha512"
+    },
+    "Microsoft.Diagnostics.NETCore.Client/0.2.637301": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

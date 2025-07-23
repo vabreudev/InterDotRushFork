@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Debugging.NetCore/DotRush.Debugging.NetCore.csproj": {}
+    "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Debugging.NetCore/DotRush.Debugging.NetCore.csproj": {}
   },
   "projects": {
-    "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/DotRush.Common.csproj": {
+    "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/DotRush.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/DotRush.Common.csproj",
+        "projectUniqueName": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/DotRush.Common.csproj",
         "projectName": "DotRush.Common",
-        "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/DotRush.Common.csproj",
+        "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/DotRush.Common.csproj",
         "packagesPath": "/Users/bi006805/.nuget/packages/",
-        "outputPath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/obj/",
+        "outputPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -386,16 +386,21 @@
             "System.Xml.XPath.XDocument": "(, 4.3.32767]"
           }
         }
+      },
+      "runtimes": {
+        "osx-arm64": {
+          "#import": []
+        }
       }
     },
-    "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Debugging.NetCore/DotRush.Debugging.NetCore.csproj": {
+    "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Debugging.NetCore/DotRush.Debugging.NetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Debugging.NetCore/DotRush.Debugging.NetCore.csproj",
+        "projectUniqueName": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Debugging.NetCore/DotRush.Debugging.NetCore.csproj",
         "projectName": "dotrushde",
-        "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Debugging.NetCore/DotRush.Debugging.NetCore.csproj",
+        "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Debugging.NetCore/DotRush.Debugging.NetCore.csproj",
         "packagesPath": "/Users/bi006805/.nuget/packages/",
-        "outputPath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Debugging.NetCore/obj/",
+        "outputPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Debugging.NetCore/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -413,8 +418,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/DotRush.Common.csproj": {
-                "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/DotRush.Common.csproj"
+              "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/DotRush.Common.csproj": {
+                "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/DotRush.Common.csproj"
               }
             }
           }
@@ -777,6 +782,11 @@
             "System.Xml.XPath": "(, 4.3.32767]",
             "System.Xml.XPath.XDocument": "(, 4.3.32767]"
           }
+        }
+      },
+      "runtimes": {
+        "osx-arm64": {
+          "#import": []
         }
       }
     }

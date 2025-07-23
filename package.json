@@ -1,13 +1,14 @@
 {
   "name": "dotrush",
   "publisher": "nromanov",
-  "version": "1.0.0",
+  "version": "25.7.204",
   "description": "Lightweight C# development environment for Visual Studio Code.",
   "displayName": "DotRush",
   "author": "Nikita Romanov",
   "license": "MIT",
   "icon": "assets/icon.png",
   "preview": false,
+  "homepage": "https://github.com/JaneySprings/DotRush",
   "bugs": {
     "url": "https://github.com/JaneySprings/DotRush/issues"
   },
@@ -35,10 +36,17 @@
   "engines": {
     "vscode": "^1.73.0"
   },
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
   "activationEvents": [
     "onLanguage:csharp",
     "onDebug",
-    "workspaceContains:**/*.{csproj,sln,cs,xaml}"
+    "workspaceContains:**/*.csproj",
+    "workspaceContains:**/*.sln",
+    "workspaceContains:**/*.cs",
+    "workspaceContains:**/*.xaml"
   ],
   "main": "extension/main.js",
   "scripts": {
@@ -49,6 +57,7 @@
   "devDependencies": {
     "@types/node": "16.x",
     "@types/vscode": "^1.73.0",
+    "@vscode/vsce": "^3.6.0",
     "ts-loader": "^9.4.1",
     "typescript": "^4.8.4",
     "webpack": "^5.74.0",
@@ -101,17 +110,17 @@
         {
           "command": "dotrush.build",
           "group": "dotnet_1@1",
-          "when": "dotrush.statusBarEnabled && (explorerResourceIsFolder || resourceExtname == .csproj || resourceExtname =~ /.sln*/)"
+          "when": "dotrush.statusBarEnabled && (explorerResourceIsFolder || resourceExtname == .csproj || resourceExtname == .sln)"
         },
         {
           "command": "dotrush.restore",
           "group": "dotnet_1@2",
-          "when": "dotrush.statusBarEnabled && (explorerResourceIsFolder || resourceExtname == .csproj || resourceExtname =~ /.sln*/)"
+          "when": "dotrush.statusBarEnabled && (explorerResourceIsFolder || resourceExtname == .csproj || resourceExtname == .sln)"
         },
         {
           "command": "dotrush.clean",
           "group": "dotnet_1@3",
-          "when": "dotrush.statusBarEnabled && (explorerResourceIsFolder || resourceExtname == .csproj || resourceExtname =~ /.sln*/)"
+          "when": "dotrush.statusBarEnabled && (explorerResourceIsFolder || resourceExtname == .csproj || resourceExtname == .sln)"
         }
       ],
       "commandPalette": [

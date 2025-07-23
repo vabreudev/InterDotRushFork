@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net472</TargetFrameworks>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>mono.snk</AssemblyOriginatorKeyFile>
+    <DefineConstants>MONO_DATACONVERTER_STATIC_METHODS;ENABLE_CECIL</DefineConstants>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <Import Project="..\Mono.Debugging.settings" />
+
+  <ItemGroup>
+    <None Include="Makefile.am" />
+    <None Include="mono-git-revision" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <NuGetVersionCecil Condition="$(NuGetVersionCecil) == ''">0.10.1</NuGetVersionCecil>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="$(NuGetVersionCecil)" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net472'">
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="System.Reflection.Metadata" Version="5.0" />
+  </ItemGroup>
+
+</Project>

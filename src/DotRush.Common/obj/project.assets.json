@@ -15,6 +15,21 @@
           }
         }
       }
+    },
+    "net8.0/osx-arm64": {
+      "NLog/5.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -54,11 +69,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/DotRush.Common.csproj",
+      "projectUniqueName": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/DotRush.Common.csproj",
       "projectName": "DotRush.Common",
-      "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/DotRush.Common.csproj",
+      "projectPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/DotRush.Common.csproj",
       "packagesPath": "/Users/bi006805/.nuget/packages/",
-      "outputPath": "/Users/bi006805/Projetos/dotRushInterFork/DotRush/src/DotRush.Common/obj/",
+      "outputPath": "/Users/bi006805/Projetos/dotRushInterFork/InterDotRushFork/src/DotRush.Common/obj/",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
@@ -433,6 +448,11 @@
           "System.Xml.XPath.XDocument": "(, 4.3.32767]"
         }
       }
+    },
+    "runtimes": {
+      "osx-arm64": {
+        "#import": []
+      }
     }
   },
   "logs": [
@@ -440,7 +460,7 @@
       "code": "NU1507",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "There are 3 package sources defined in your configuration. When using central package management, please map your package sources with package source mapping (https://aka.ms/nuget-package-source-mapping) or specify a single package source. The following sources are defined: nuget.org, nexus, Nexus-Shared"
+      "message": "Há 3 origens de pacotes definidas na sua configuração. Ao usar o gerenciamento central de pacotes, mapeie suas origens de pacotes com o mapeamento de origem de pacotes (https://aka.ms/nuget-package-source-mapping) ou especifique uma única origem do pacote. As origens a seguir estão definidas: nuget.org, nexus, Nexus-Shared"
     }
   ]
 }

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net472</TargetFrameworks>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>mono.debugging.snk</AssemblyOriginatorKeyFile>
+    <NoWarn>1591;1573</NoWarn>
+    <Execution>
+      <Execution clr-version="Net_2_0" />
+    </Execution>
+    <DocumentationFile>bin\$(Configuration)\Mono.Debugging.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <Import Project="..\Mono.Debugging.settings" />
+
+  <PropertyGroup>
+    <NuGetVersionRoslyn Condition="$(NuGetVersionRoslyn) == ''">4.5.0-1.22517.2</NuGetVersionRoslyn>
+    <NuGetVersionSystemCollectionsImmutable Condition="$(NuGetVersionSystemCollectionsImmutable) == ''">6.0.0</NuGetVersionSystemCollectionsImmutable>
+    <SystemBuffersVersion Condition="$(SystemBuffersVersion) == ''">4.5.1</SystemBuffersVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Buffers" Version="$(SystemBuffersVersion)" />
+    <PackageReference Include="System.Collections.Immutable" Version="$(NuGetVersionSystemCollectionsImmutable)" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="$(NuGetVersionRoslyn)" />
+  </ItemGroup>
+
+</Project>
