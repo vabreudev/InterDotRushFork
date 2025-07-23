@@ -1,4 +1,4 @@
-<img margin="auto" display="block" width="60%" src="assets/interLogo.png" style="padding: 2% 0% 0% 2%"/>
+<img align="center" width="60%" src="assets/interLogo.png" style="padding: 2% 0% 0% 2%"/>
 
 # InterDotRush - A Security-Focused Fork of DotRush
 
