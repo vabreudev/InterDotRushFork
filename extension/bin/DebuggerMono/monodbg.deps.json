@@ -204,16 +204,16 @@
         },
         "runtime": {
           "InterDotRush.Common.dll": {
-            "assemblyVersion": "25.7.204.0",
-            "fileVersion": "25.7.204.0"
+            "assemblyVersion": "25.7.205.0",
+            "fileVersion": "25.7.205.0"
           }
         }
       },
       "Mono.Debugger.Soft/1.0.0": {
         "runtime": {
           "Mono.Debugger.Soft.dll": {
-            "assemblyVersion": "25.7.204.0",
-            "fileVersion": "25.7.204.0"
+            "assemblyVersion": "25.7.205.0",
+            "fileVersion": "25.7.205.0"
           }
         }
       },
@@ -223,8 +223,8 @@
         },
         "runtime": {
           "Mono.Debugging.dll": {
-            "assemblyVersion": "25.7.204.0",
-            "fileVersion": "25.7.204.0"
+            "assemblyVersion": "25.7.205.0",
+            "fileVersion": "25.7.205.0"
           }
         }
       },
@@ -237,8 +237,8 @@
         },
         "runtime": {
           "Mono.Debugging.Soft.dll": {
-            "assemblyVersion": "25.7.204.0",
-            "fileVersion": "25.7.204.0"
+            "assemblyVersion": "25.7.205.0",
+            "fileVersion": "25.7.205.0"
           }
         }
       }

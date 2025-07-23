@@ -12,11 +12,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterDotRush.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("25.7.204")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4c767934457777376f245e64795d523e65d1c6b")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("25.7.205")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec371ae505e1756847430cd932235fcd79e276d")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterDotRush.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterDotRush.Common")]
-[assembly: System.Reflection.AssemblyVersionAttribute("25.7.204")]
+[assembly: System.Reflection.AssemblyVersionAttribute("25.7.205")]
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("InterDotRush.Roslyn.Workspaces.Tests")]
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("InterDotRush.Roslyn.CodeAnalysis.Tests")]
 
