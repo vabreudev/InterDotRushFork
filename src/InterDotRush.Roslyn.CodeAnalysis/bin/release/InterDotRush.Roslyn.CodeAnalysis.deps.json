@@ -669,8 +669,8 @@
         },
         "runtime": {
           "InterDotRush.Common.dll": {
-            "assemblyVersion": "25.7.205.0",
-            "fileVersion": "25.7.205.0"
+            "assemblyVersion": "25.7.207.0",
+            "fileVersion": "25.7.207.0"
           }
         }
       },
@@ -682,8 +682,8 @@
         },
         "runtime": {
           "InterDotRush.Roslyn.Workspaces.dll": {
-            "assemblyVersion": "25.7.205.0",
-            "fileVersion": "25.7.205.0"
+            "assemblyVersion": "25.7.207.0",
+            "fileVersion": "25.7.207.0"
           }
         }
       }

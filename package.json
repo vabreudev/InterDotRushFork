@@ -1,7 +1,7 @@
 {
   "name": "InterDotRush",
   "publisher": "InterFork",
-  "version": "25.7.205",
+  "version": "25.7.207",
   "description": "Fork of DotRush - Lightweight C# development environment for Visual Studio Code.",
   "displayName": "InterDotRush",
   "author": "Nikita Romanov",
